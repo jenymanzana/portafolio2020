@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A0D23A4-1ACD-EBF1-9EDA-2FA4CC03F2F9" name="Pedido proveedor">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>E528656B-79C2-C6F9-9721-5074CA428B74</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_pedido_proveedor" id="C0EB56E1-AE15-1D19-2520-2EBB486602A1">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>539116FA-7517-EE4D-0840-13A97FCC4165</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_pedido_proveedor" id="6B6D95DD-9213-9252-17ED-2E7E1F78C568">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>5613F9D8-93BA-F6BD-8C82-BF572DCB5799</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fech_pedido_proveedor" id="CF6E7C03-E46A-51DF-1A69-DF2A19A75D7F">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>D004905B-51DC-F2D5-A695-6CE252F34ABC</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Desc_pedido_proveedor" id="4B2217E3-03BA-7CBE-1BB9-EA7382BFBAF5">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>0B19D195-D926-59E6-D172-8CD7D2B59DC8</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_proveedor" id="286C1EFE-5217-D87E-DA23-2459B63EF90E">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 21:10:12 UTC</createdTime>
+<generatorID>662FAED1-C60C-1110-FE94-C5227FF23C71</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>40118768-0B33-2BBA-5A1E-73AD1B616ED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Empleado" id="E9E7B2F7-6129-DDE1-3A5D-563DDA3D29AB">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 21:27:18 UTC</createdTime>
+<generatorID>B452A966-9C9C-8A1D-1E4E-B9B8576C822F</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>C8D3C714-5DDD-E67E-389B-E579D6D256CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="465BBD97-5A89-6A54-6D51-D57BA1FBB1B5" name="Pedido proveedor PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>AA285403-4285-D16E-E45D-D3054F64077E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0EB56E1-AE15-1D19-2520-2EBB486602A1</attributeRef>
+<attributeRef>286C1EFE-5217-D87E-DA23-2459B63EF90E</attributeRef>
+<attributeRef>E9E7B2F7-6129-DDE1-3A5D-563DDA3D29AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

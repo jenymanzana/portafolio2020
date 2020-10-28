@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24703780-305F-4EA0-E42D-FA924F3FCA17" name="Mesa">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>2DF34E51-FD5E-16E2-AAA5-D8CF4F12B049</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_mesa" id="45A0DC16-760E-5658-D35D-F19FC19BBC77">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>08977FC8-73EF-4CD1-B8F9-7043A6E71410</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_mesa" id="2D25E8CF-0F0D-BC89-570E-70F1C392AE4D">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>4110A6C0-094C-4BD3-3665-EAFC4DF1A6F7</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacidad_mesa" id="4D285943-02B1-A50B-F3E7-970CA207C84F">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>437EE116-3378-3040-3A38-8A366FC3169E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D427C3AB-65A8-E876-FB3D-9143F8CA5F79" name="Mesa_PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>736756F4-120C-DC8D-64E2-ED524B594B34</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45A0DC16-760E-5658-D35D-F19FC19BBC77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

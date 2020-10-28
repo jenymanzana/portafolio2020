@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D387809C-14EF-F966-D751-C324D0C3A374" name="Reserva">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>7388C448-BF0D-D365-040B-6E1D1974EAEF</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_reserva" id="E1E575D6-E503-A2C1-B352-66FAE0105C3F">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>A7AC9516-B4D6-554F-AC38-189A100C8096</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fech_reserva" id="7CA7D489-A8D0-FD1B-5D65-38E98D3DAA3B">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>B406EC79-F851-B425-0B2F-2E8CF9198852</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora_reserva" id="A610E8D3-6D61-767E-3ED0-FD09555568F6">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>3E2F46FF-59C2-3FFE-D52F-33DB5B10CEF2</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_reserva" id="A2A5892C-C58C-B382-7CF7-4DABAF635E85">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>07E4CC66-00B5-C145-1D2F-8DA039597F65</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Acompanantes_reserva" id="F38DEC82-93B2-A3E9-1629-56F6366A24EB">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>8E734AF3-3539-B3D7-26D4-75BEA649CB68</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comensal_Id_comensal" id="8F2CDB92-2010-FC85-18B0-CB2F6C6129D7">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>9453342A-7F08-A6CD-0F20-1CFB8111CD57</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BF9E3EF-6C3C-23C9-26AB-EC1CC2A56604" referredColumn="09CA3133-B8DF-339D-2DDD-F34CF0C265DD"/>
+</associations>
+</Column>
+<Column name="Mesa_Id_mesa" id="5494A782-51EA-75C8-6D29-8F1FEF16D3A2">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>FA73B68D-5A91-3CD6-BEE8-BBD9DC732DE6</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4587C5DE-6086-E829-EFD9-D2641839FA2C" referredColumn="45A0DC16-760E-5658-D35D-F19FC19BBC77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7084584-7BE7-FE01-F6F1-1520D25DF696" name="Reserva_PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>50AE2E13-8F2F-98F8-430E-1EC5C5D6A872</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1E575D6-E503-A2C1-B352-66FAE0105C3F"/>
+<colUsage columnID="8F2CDB92-2010-FC85-18B0-CB2F6C6129D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D19F273D-848B-388F-37F1-B5C26563BF3F" name="Reserva_Comensal_FK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>A951C131-C414-5479-FBD3-A2968D8A6314</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F2CDB92-2010-FC85-18B0-CB2F6C6129D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03759542-0073-48E7-3A9F-5473552F9AF9" name="Reserva_Mesa_FK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>F3841B73-14D9-CFF5-4EFA-AFB17EB08311</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5494A782-51EA-75C8-6D29-8F1FEF16D3A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1A35AA6-FFCB-61C7-EF53-9F3A45701CA2" name="Usuarios">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>9F89CBC3-8DC8-60F0-949D-72C17DCD7B3C</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Usuario_plataforma" id="6C3B6EBD-D27B-37A9-643E-36F67AECAD2D">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>8232429D-D455-0CE4-A82D-5B47C34E49A3</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nick_usuario" id="DA68D24F-901E-C69D-AEA6-EAF673259A37">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>B9FECD5D-1C67-E594-76C4-6C181FC1EA1E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pass_usuario" id="C3DCAD95-7FB8-DA57-94D8-95530A15577D">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>ED213F1C-8558-20E2-590A-449BA83DF9F9</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleados_Id_Empleado" id="457B76E1-8F3A-5AE9-0616-5D0ACE9DB234">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>C467003F-DABA-4F4E-7EE8-84589BAEC115</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E1443B1-3906-398A-328B-38A0981D8474" referredColumn="7475234E-3F3F-A2AB-92B0-EBB4E344138C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBAFA73B-07C4-8092-7214-78CD3AB7E661" name="Usuarios_PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>CBF24386-8973-58FB-594B-7739A0757C85</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C3B6EBD-D27B-37A9-643E-36F67AECAD2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A154E6E-B383-9165-02E2-B8AB0BC2E4DA" name="Usuarios_Empleados_FK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>303C674C-167C-9C2A-1648-C83E7B8C85FE</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="457B76E1-8F3A-5AE9-0616-5D0ACE9DB234"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

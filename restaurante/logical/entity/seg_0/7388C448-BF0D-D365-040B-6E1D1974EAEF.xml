@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7388C448-BF0D-D365-040B-6E1D1974EAEF" name="Reserva">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>D0020736-8F0E-9B56-93E8-8F6FE6F62778</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_reserva" id="A7AC9516-B4D6-554F-AC38-189A100C8096">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>99FB2EEC-E269-E3E9-C187-E52EB5FF9A99</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fech_reserva" id="B406EC79-F851-B425-0B2F-2E8CF9198852">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>0894BBEE-731B-00CA-A401-A404C5217BB0</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora_reserva" id="3E2F46FF-59C2-3FFE-D52F-33DB5B10CEF2">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>CA4060C1-BE81-1EE2-7C45-ADE6DF82B356</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_reserva" id="07E4CC66-00B5-C145-1D2F-8DA039597F65">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>CC34A4D0-9B15-08D9-629B-DA78A112350E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Acompanantes_reserva" id="8E734AF3-3539-B3D7-26D4-75BEA649CB68">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>7E443327-AC44-D769-D383-D97393EB7D68</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_comensal" id="9453342A-7F08-A6CD-0F20-1CFB8111CD57">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:31:17 UTC</createdTime>
+<generatorID>A951C131-C414-5479-FBD3-A2968D8A6314</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>BA824C2A-9CB7-6594-B630-61B0F0F0AA78</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_mesa" id="FA73B68D-5A91-3CD6-BEE8-BBD9DC732DE6">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 21:19:54 UTC</createdTime>
+<generatorID>F3841B73-14D9-CFF5-4EFA-AFB17EB08311</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>08977FC8-73EF-4CD1-B8F9-7043A6E71410</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50AE2E13-8F2F-98F8-430E-1EC5C5D6A872" name="Reserva PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>0FB8C898-B038-5960-3052-19FF49F76470</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7AC9516-B4D6-554F-AC38-189A100C8096</attributeRef>
+<attributeRef>9453342A-7F08-A6CD-0F20-1CFB8111CD57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

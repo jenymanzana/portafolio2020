@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76D39086-0D0A-0BF1-AD5E-1E924EC4A74D" name="Menu">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>3FABA676-103F-C2E8-A7D1-01568AF8556E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_menu" id="EEAACA47-9322-972B-3200-697067E203D9">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>C3EA62D3-687A-6F58-AFE7-F655B2792099</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_menu" id="FE581BD9-7E08-6D1D-35AA-E4EE605FBE05">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>E33AA2A1-1BEF-1505-811E-5E3A4DFCD037</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_menu" id="B9248FDE-2D57-6343-20C6-E16CFD71665F">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>39E6DD62-315E-FF05-C838-112454302D67</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>520</dataTypeSize>
+<ownDataTypeParameters>520,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio_base_menu" id="94485C59-E944-C3E0-C06E-858080C92F54">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>5C71D377-0514-3456-AEDB-754AA21A2D29</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio_menu" id="17A7BBF6-B60D-56AF-436A-89C241EBC0BA">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>2962E62F-6E4A-31FD-EFF7-51AC7B98ED56</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion_menu" id="1069BD5D-37C0-B4AD-29D9-50656D3E0E62">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>15E3099A-4293-71E4-DC4A-B016D1C391AF</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruta_imagen_menu" id="782242DA-582D-A8A6-4B04-C565FD806D25">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>E6A1636B-8F63-AEBA-5F0C-001EFBB57F30</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_menu" id="381B2D28-D5D6-F5FC-4BBB-F7888A477150">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>8F419E40-B235-52F2-8F59-CFB4E1D06378</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Recetas_Id_receta" id="E465FFD9-EF33-328F-AC89-074FE25C3DB1">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>9A6EA3D3-5227-956E-218D-FB087326DD26</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8681D228-4206-21CD-D659-72B04D7787D2" referredColumn="5B2C0196-842A-3CA0-4E87-A24CEDEB10AD"/>
+</associations>
+</Column>
+<Column name="Pedidos_Id_pedido" id="A51CAA00-86BB-9EE5-DC13-2A84714031FE">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>3EBA0B89-253F-909D-5A7C-EBFE0CA81361</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D7F0DEB-11C3-4891-D778-7164A95715CB" referredColumn="6C9F49F1-96B9-E573-6E92-651806C13F55"/>
+</associations>
+</Column>
+<Column name="Pedidos_Mesa_Id_mesa" id="C8436407-07F8-6215-8318-4FB078112B95">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>FB650998-6DCD-7B9E-7F5B-9E4E7CA524CA</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D7F0DEB-11C3-4891-D778-7164A95715CB" referredColumn="CC06C938-046F-6818-AE6C-0EA3EA44C43C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D629F01F-9C3C-7FEE-3C01-C08CBF0518C6" name="Menu_PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>42A4DF99-F2D7-2946-DCCD-40365CBDB651</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEAACA47-9322-972B-3200-697067E203D9"/>
+<colUsage columnID="E465FFD9-EF33-328F-AC89-074FE25C3DB1"/>
+<colUsage columnID="A51CAA00-86BB-9EE5-DC13-2A84714031FE"/>
+<colUsage columnID="C8436407-07F8-6215-8318-4FB078112B95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB7A476B-96DB-245D-A1B9-0A180A6A168C" name="Menu_Recetas_FK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>B5048B99-CE91-24EF-AC0D-AFA2EEC1E3A8</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E465FFD9-EF33-328F-AC89-074FE25C3DB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D01D69E-F2B1-8482-A1EA-E997C58FADF8" name="Menu_Pedidos_FK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>5A56B601-BFC2-6976-C422-84014ED3E5D3</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A51CAA00-86BB-9EE5-DC13-2A84714031FE"/>
+<colUsage columnID="C8436407-07F8-6215-8318-4FB078112B95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

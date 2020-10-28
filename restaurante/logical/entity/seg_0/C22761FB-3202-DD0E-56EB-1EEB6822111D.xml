@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C22761FB-3202-DD0E-56EB-1EEB6822111D" name="Empleados desvinculados">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>733406A5-5DB3-F4A3-DDC9-3FB5AF968948</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_empleado_desvinculado" id="A58324C4-81A7-CF3C-B763-C9B6F93C36D2">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>E15BEFB7-DA8A-D289-A2C6-F44A17490F5C</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fech_despido_empl_desvinculado" id="FA2D2049-AAEE-98BB-743A-BB10C9F63BF9">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>0AB8CFD2-C8A8-10B5-3D16-FE39E0B6A61E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Desc_emple_desvinculado" id="EDA1A4B6-8E57-310E-B8B7-7680F84B5463">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>F924B0DD-2517-4FBF-7A0C-1C2E8D113782</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Empleado" id="F3F04915-BD51-0978-2884-211BC814ABCD">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 17:23:17 UTC</createdTime>
+<generatorID>0A0E2B26-7965-272A-4543-9D5ED36CA1CA</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>C8D3C714-5DDD-E67E-389B-E579D6D256CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8DB54C8-6E2A-0A29-D7FD-B6174B4568E2" name="Empleados desvinculados PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>3CF6E614-A93E-210A-1BD6-030269ABA940</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A58324C4-81A7-CF3C-B763-C9B6F93C36D2</attributeRef>
+<attributeRef>F3F04915-BD51-0978-2884-211BC814ABCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

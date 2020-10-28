@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E16A14BB-51F6-0F95-EB53-C07CC06EA56D" containerWithKeyObject="FB989F80-2E9D-5B11-416C-028AE10464BA" localFKIndex="B82BF87A-FB53-92BB-1A31-270232182333" name="Pedidos_Mesa_FK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-27 18:07:06 UTC</createdTime>
+<generatorID>2E24A05A-833C-77A5-1FBB-3AFBC9C04BDF</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<referredTableLongName>Mesa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>24703780-305F-4EA0-E42D-FA924F3FCA17</referredTableID>
+<keyObject>D427C3AB-65A8-E876-FB3D-9143F8CA5F79</keyObject>
+<referredKeyID>D427C3AB-65A8-E876-FB3D-9143F8CA5F79</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_mesa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

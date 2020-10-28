@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFA79BAC-A9CB-9C5B-593E-782CD8A46029" name="Detalle Boleta">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>C6B8ED4F-FBC3-5E81-A9C9-9EE591D7D151</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Cantidad" id="F43E7FF2-728F-0670-C356-DA0B4482D04B">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>7DACDF45-7676-D8C7-72C1-02806E01347E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="3401D06B-F267-6C00-E963-B85889E40287">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>CD23E063-86D0-0C35-315F-CEEAFF4FD14C</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_menu" id="84FF02AA-241C-C297-FDCF-52CB50648225">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:00:04 UTC</createdTime>
+<generatorID>D4A0F86F-0920-8B19-3EDB-A7F71253E84C</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>C3EA62D3-687A-6F58-AFE7-F655B2792099</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_boleta" id="3E0DE26F-98DD-4462-5008-EBF0E3323964">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:02:48 UTC</createdTime>
+<generatorID>621C406F-328C-61DC-55AC-D97F9EB22DC2</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>A61B2770-0CA1-7F95-CD56-8209EAA32B02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Propina" id="CD7C2A91-FFE7-6381-3D1A-97BBB68151DA">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:10:58 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_receta" id="DF83B017-1BC8-1448-EE9E-4323CB2F25B4">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 17:11:48 UTC</createdTime>
+<generatorID>D4A0F86F-0920-8B19-3EDB-A7F71253E84C</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>9A6EA3D3-5227-956E-218D-FB087326DD26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_pedido" id="51E283EE-3398-4B57-F917-598EAEB4BE9A">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 21:21:39 UTC</createdTime>
+<generatorID>D4A0F86F-0920-8B19-3EDB-A7F71253E84C</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>3EBA0B89-253F-909D-5A7C-EBFE0CA81361</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_mesa" id="7CB291F2-49CC-BF36-C981-76691516F668">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 21:21:39 UTC</createdTime>
+<generatorID>D4A0F86F-0920-8B19-3EDB-A7F71253E84C</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>FB650998-6DCD-7B9E-7F5B-9E4E7CA524CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDAA042E-BEE1-6A03-DDAC-EF6FB3403247" name="Detalle Boleta PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:00:04 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>84FF02AA-241C-C297-FDCF-52CB50648225</attributeRef>
+<attributeRef>DF83B017-1BC8-1448-EE9E-4323CB2F25B4</attributeRef>
+<attributeRef>51E283EE-3398-4B57-F917-598EAEB4BE9A</attributeRef>
+<attributeRef>7CB291F2-49CC-BF36-C981-76691516F668</attributeRef>
+<attributeRef>3E0DE26F-98DD-4462-5008-EBF0E3323964</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

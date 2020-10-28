@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31206BD8-2157-6076-F94F-CD67342C970D" name="Insumo">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:47:49 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_insumo" id="F3644E0B-D182-5571-6562-BD524EDC68A5">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:50:29 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo_insumo" id="08CAF86C-FE8A-726C-C72F-5FBD4E23F755">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:48:41 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_insumo" id="A473AFB0-D052-35EB-2BA5-428AF9207538">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:49:19 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imagen_insumo" id="F616137D-4CF7-307F-CFA4-2EBBC3CC2004">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:48:24 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria_insumo" id="B98E78AC-405D-2230-FF50-8A4C8CFD59E4">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:52:26 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valor_insumo" id="583B4AFD-F9E3-86CC-24F4-F5513D055244">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:54:39 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Unidad_insumo" id="B0B0F111-DFDD-F6F5-11CB-6EA723357525">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:55:48 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stock_insumo" id="87A899B0-2918-6FC1-806E-1B86E9BE1566">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 22:15:56 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_receta" id="DC14877C-D99B-3584-8454-5AA6B69201F2">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 22:16:22 UTC</createdTime>
+<generatorID>FFCF5DC1-902A-FBF0-6B2B-3286A63E7EC5</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<referedAttribute>06B6ACA3-FA3F-F060-B7BE-559F1BF20961</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B505B841-7128-56EF-23FF-F7767FF37E0D" name="Insumo PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:48:40 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3644E0B-D182-5571-6562-BD524EDC68A5</attributeRef>
+<attributeRef>DC14877C-D99B-3584-8454-5AA6B69201F2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F26380A0-1293-C1CF-7912-B01DBAC03767" name="Key_2">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 16:49:09 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="1F59936A-F30D-A004-4313-271D6F55F45A" value="true"/>
+</engineerTo>
+<newElementsIDs>08CAF86C-FE8A-726C-C72F-5FBD4E23F755</newElementsIDs>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B589297E-AB22-C15E-2AD6-A311DB22DD15" name="Empleados">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>5EC81ACF-FE9F-16A6-7D70-1E06C01A652E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Empleado" id="C8D3C714-5DDD-E67E-389B-E579D6D256CE">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>DB1CEF61-F327-F397-EC7B-66D4951C5A0E</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rut_empleado" id="18712C6A-578A-4A4F-932A-A512AEA004F6">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>68DEC573-D153-5E1A-5814-887E2B3FB05D</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre_empleado" id="5B2949C8-13F6-3FE6-5F72-7F9A98F2DD92">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>13CFE139-E9DB-4CAF-3E4F-C6B5F49C87DB</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_Empleado" id="DEE41A57-2D9A-937E-97C3-F9899339691F">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>19D26220-3AAC-7CA4-C572-6171BBECC97B</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rol_empleado" id="5BD2412F-A351-2B36-4DC3-C4259AE185D3">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>186DB4CF-142C-FA2B-A648-9BE498C17375</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fech_nac_empleado" id="39BBBAA7-C467-A857-371D-26C61A960B6E">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>FA8EBC00-3C4F-3923-B975-EC79BD03C950</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fech_contrato_empleado" id="4C6E0867-8B18-F751-E0CE-8E477BE3919A">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>DA492E04-1596-B5F5-D8A7-E41A7824D2E9</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Horas_trabajo_empleado" id="5F9A1C66-D322-50A2-C0F1-09C1BB7B3420">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>A045B574-C2B1-3824-9800-71A949E261A3</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email_empleado" id="1943E984-3F21-580A-E45B-1CD88D6B5872">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>C7053DE3-3ECB-7B78-7735-B65B6C7395CA</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono_empleado" id="FA35F809-7F15-CF9D-259E-8378E1CD2EFF">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>0C23E652-F97C-055B-F51C-3CB722391E31</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plataforma_empleado" id="B66922B7-9D5F-9697-F3AC-5BACBFF84C47">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>DE7E3C07-B4CD-06E1-D80A-D5AD8414B954</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sueldo_empleado" id="77723C6F-BD18-C603-3509-DB4A1A3158B0">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>8319341E-7600-D502-EEA4-AC603D0690FD</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado_empleado" id="25D10120-7D7D-BDEC-9A59-050EACD4397C">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-26 17:09:16 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1DD8171-B2AB-0809-623F-42DE749EE201" name="Empleado PK">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 01:37:22 UTC</createdTime>
+<generatorID>A6A10C9B-2132-908C-0958-F7FED813868C</generatorID>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C8D3C714-5DDD-E67E-389B-E579D6D256CE</newElementsIDs>
+<usedAttributes>
+<attributeRef>C8D3C714-5DDD-E67E-389B-E579D6D256CE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="20177513-BFFA-0968-805A-458951D57B82" name="Key_2">
+<createdBy>Jeny</createdBy>
+<createdTime>2020-09-25 02:03:10 UTC</createdTime>
+<ownerDesignName>restaurante</ownerDesignName>
+<engineerTo>
+<item key="B2CF60AC-ACF7-130F-CEDE-50603A68748E" value="true"/>
+</engineerTo>
+<newElementsIDs>18712C6A-578A-4A4F-932A-A512AEA004F6</newElementsIDs>
+<usedAttributes>
+<attributeRef>18712C6A-578A-4A4F-932A-A512AEA004F6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
