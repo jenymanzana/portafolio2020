@@ -1,0 +1,3 @@
+Lo que se avanzó de caja aún 
+no está unido al proyeco general, por eso
+se encuentra en un archivo aparte solocaja.zip
